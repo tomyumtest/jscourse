@@ -1,0 +1,61 @@
+.bodyclass {
+  margin: 0px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  background-color: rgb(9, 49, 113);
+  padding: 20px;
+  font-weight: 100;
+}
+
+.main {
+  position: static;
+  margin: 10px;
+  left: 50%;
+}
+
+.footer {
+  color: black;
+  position: static;
+  margin-top: 400px;
+  bottom: 10px;
+}
+
+#ramka1,
+#ramka2 {
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+  border: rgb(9, 49, 113);
+  border-radius: 20px;
+  border-style: solid;
+}
+
+#ramka2 {
+  color: rgb(9, 49, 113);
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border: rgb(9, 49, 113);
+  border-radius: 10px;
+  border-style: solid;
+}
+
+button {
+  margin: 2px;
+  padding: 20px;
+  color: white;
+  background-color: rgb(9, 49, 113);
+}
+button:active {
+  background-color: rgb(59, 101, 169);
+}
+button:target {
+  background-color: rgb(0, 0, 0);
+}
